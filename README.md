@@ -1,7 +1,7 @@
 TrelloExportFirefox
 ============
 TrelloExportFirefox is a Firefox extension to export data from Trello to Excel, Markdown, HTML and OPML.
-This project is a fork from [TrelloExport for Chrome] (https://github.com/trapias/trelloExport).
+This project is a fork from [TrelloExport for Chrome](https://github.com/trapias/trelloExport).
 
 ## Release history
 
@@ -15,9 +15,7 @@ Released 06/04/2017:
 
 
 ## How to install
-Get it on the [Chrome Web Store](https://chrome.google.com/webstore/detail/trelloexport/kmmnaeamjfdnbhljpedgfchjbkbomahp). 
-
-If you want to install from source, just follow these steps:
+Download source files and follow these steps:
 
 1. Download the repository as a zip file
 2. Extract zip
