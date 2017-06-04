@@ -1,7 +1,7 @@
 {
-    "name": "TrelloExport",
-    "version": "1.9.38",
-    "manifest_version": 2,
+    "name": "TrelloExportFirefox",
+    "version": "1.0.0",
+    "manifest_version": 1,
     "description": "Export Trello Boards to Excel, Markdown, HTML and OPML",
     "icons": { "128": "icons/trelloexport_128.png" },
     "content_scripts": [{
@@ -12,7 +12,7 @@
             "lib/tooltip.css",
             "lib/trelloexport.css"
         ],
-        "js": ["lib/jquery-2.1.0.min.js",
+        "js": ["lib/jquery-3.2.1.min.js",
             "lib/FileSaver.min.js",
             "lib/js-xlsx/jszip.js",
             "lib/js-xlsx/xlsx.full.min.js",
@@ -27,5 +27,5 @@
             "trelloexport.js"
         ]
     }],
-    "homepage_url": "http://trapias.github.io"
+    "homepage_url": "https://github.com/dan-souza/TrelloExportFirefox"
 }
