@@ -146,7 +146,8 @@
     - re-enabled tooltips
     - export custom fields (pluginData handled with the "Custom Fields" Power-Up) to Excel
 */
-var VERSION = '1.9.38';
+var VERSION = '1.0.0';
+var $ =jQuery.noConflict();
 
 /**
  * http://stackoverflow.com/questions/784586/convert-special-characters-to-html-in-javascript
@@ -1271,7 +1272,7 @@ function loadData(exportFormat, bexportArchived, bExportComments, bExportCheckli
                                                 $.each(card.members, function(key, member) {
                                                     if (member.id == memberID) {
                                                         if (member.fullName !== undefined) {
-                                                            memberInitials.push(member.fullName); // initials, username or fullName    
+                                                            memberInitials.push(member.fullName); // initials, username or fullName
                                                         } else {
                                                             if (member.username !== undefined) {
                                                                 memberInitials.push(member.username);
@@ -1689,7 +1690,7 @@ function createExcelExport(jsonComputedCards, iExcelItemsAsRows, allColumns, col
             });
         });
 
-        // iExcelItemsAsRows: 
+        // iExcelItemsAsRows:
         // 0=default
         // 1=checklist items as rows
         // 2=labels as rows
